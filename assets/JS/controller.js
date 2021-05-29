@@ -2,6 +2,7 @@ const addModalBox = (data) => {
   addArticlesOfValue(data);
 };
 function addArticlesOfValue(data) {
+  
   const article = `<div class="col-12 col-sm-6 col-md-2">
     <img
       src="${data["picture"]["large"]}"

@@ -1,6 +1,8 @@
+// Create an onject and put it some custom value that we can send them to the API_URL
 const users = {
   numbers: "20",
 };
+// Create a function and get user_information from server
 async function GetUser() {
   let userData = {};
   await $.ajax({
