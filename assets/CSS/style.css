@@ -1,8 +1,8 @@
 /* Global */
 html,
 body {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 * {
@@ -12,3 +12,22 @@ body {
 }
 
 /* HR */
+hr {
+    color: white;
+    height: 1rem;
+    width: 100%;
+}
+
+/* Avatar */
+.avatar-button {
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+section {
+    height: 80%;
+}
+
+article {
+    width: 0 !important;
+}
